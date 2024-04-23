@@ -106,7 +106,7 @@ function water_extension(image_collection,roi,start_time,stop_time){
   Map.addLayer(mask_MNDWI ,{}, interval + " mask_MNDWI");
   Map.addLayer(masked_image, {"bands": ["B4", "B3", "B2"], min: 0,max: 0.3}, interval + " masked image (RGB)");
   Map.addLayer(edge.updateMask(edge), {palette:["ffffff"]},interval +" reservoir edge");
-  Map.addLayer(image_bounding_box , {}, interval +" image bounding box", false) ;
+  // Map.addLayer(image_bounding_box , {}, interval +" image bounding box", false) ;
   /*---------------*/                
                         
                       
