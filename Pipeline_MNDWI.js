@@ -118,10 +118,10 @@ function water_extension(image_collection,area,roi,start_time,stop_time){
 
 
 // Get the differece between 2013 and 2023
-var first_detection=water_extension(L8,las_vegas_lake,ROI,"2013-05-01","2013-06-01");
+var first_detection=water_extension(L8,las_vegas_lake,ROI,"2013-05-01","2013-07-01");
 // print(first_detection);       
 
-var second_detection=water_extension(L8,las_vegas_lake,ROI,"2023-05-01","2023-06-01");
+var second_detection=water_extension(L8,las_vegas_lake,ROI,"2023-05-01","2023-07-01");
 // print(second_detection);
 
 var difference = first_detection.subtract(second_detection);
